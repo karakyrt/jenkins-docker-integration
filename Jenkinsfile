@@ -2,7 +2,6 @@ pipeline {
     agent{
         docker{
             image "wordpress"
-            label "Node-1"
         }
     }
     parameters {
